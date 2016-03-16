@@ -1,0 +1,24 @@
+body {
+	color: #0a3334;
+	background-color: #FFF;
+	font-family: Helvetica, sans-serif;
+}
+#slogan {
+	color: #869f9e;
+	font-weight: 500;
+	font-size: 22px;
+}
+p {
+	color: #869f9e;
+}
+
+ul {
+	color: #869f9e;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #ceecf2;
+	font-size: 18px;
+}
