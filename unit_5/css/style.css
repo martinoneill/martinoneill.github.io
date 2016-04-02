@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Cardo);
+
+body {
+	color: #0a3334;
+	background-color: #FFF;
+	font-family: Helvetica, sans-serif;
+	margin-left: 3em;
+}
+#slogan {
+	color: #869f9e;
+	font-weight: 500;
+	font-size: 22px;
+}
+p {
+	font-family: 'Cardo', serif;
+	color: #869f9e;
+	line-height: 1.5em;
+}
+
+ul {
+	font-family: 'Cardo', serif;
+	color: #869f9e;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #ceecf2;
+	font-size: 18px;
+}
