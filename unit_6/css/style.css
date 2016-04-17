@@ -1,0 +1,79 @@
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left {
+	background-color: violet;
+	border: 1px black solid;
+	padding: 20px 20px 36px 20px;
+	float: left;
+	width: 30%;
+}
+
+#right {
+	background-color: pink;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+footer {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Cardo);
+
+body {
+	color: #0a3334;
+	background-color: #FFF;
+	font-family: Helvetica, sans-serif;
+	margin-left: 3em;
+}
+#slogan {
+	color: #869f9e;
+	font-weight: 500;
+	font-size: 22px;
+}
+p {
+	font-family: 'Cardo', serif;
+	color: #869f9e;
+	line-height: 1.5em;
+}
+
+ul {
+	font-family: 'Cardo', serif;
+	color: #869f9e;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #ceecf2;
+	font-size: 18px;
+}
