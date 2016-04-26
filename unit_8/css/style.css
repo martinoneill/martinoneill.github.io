@@ -7,6 +7,30 @@ nav {
 	padding: 20px;
 }
 
+nav a:link{
+	font-family: Helvetica, sans-serif;
+	color:rgba(62,62,68,0.5);
+	margin:0 2em;
+	padding-bottom:5px;
+	font-size: .8em;
+	text-align: right;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+
+nav a:visited{
+	color: rgba(62,62,68,0.5);
+}
+
+nav a:hover{
+	border-bottom: 3px solid rgba(116,200,218,0.5);
+}
+
+nav a:active{
+	color:rgba(62,62,68,0.5);
+}
+
 #logo {
 	float: left;
 }
@@ -20,9 +44,18 @@ nav {
 	font-size: 1.5em;
 }
 
+h1 {
+	font-weight: 400;
+	font-size: 2.5em;
+	font-weight: 800;
+	line-height: 1em;
+}
+
 h2 {
 	color: rgba(116,200,218,0.5);
 	font-weight: 400;
+	font-size: 1.8em;
+	line-height: 1em;
 }
 
 body {
@@ -77,4 +110,25 @@ footer {
 		padding: 10%;
 		float: none;
 	}
+
+nav a:link{
+		margin:0 1em;
 	}
+
+#logo {
+	float: none;
+	margin: auto;
+}
+
+#nav {
+	float: none;
+	margin: auto;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
