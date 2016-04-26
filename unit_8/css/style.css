@@ -1,0 +1,80 @@
+header {
+	padding: 5%;
+	margin: auto;
+}
+
+nav {
+	padding: 20px;
+}
+
+#logo {
+	float: left;
+}
+
+#nav {
+	float: right;
+}
+
+.navlinks {
+	color: rgba(62,68,68,0.5);
+	font-size: 1.5em;
+}
+
+h2 {
+	color: rgba(116,200,218,0.5);
+	font-weight: 400;
+}
+
+body {
+	color: #0a3334;
+	background-color: #FFF;
+	font-size: 18px;
+	font-family: Helvetica, sans-serif;
+	padding: 5%;
+	text-align: center;
+}
+
+.work {
+	width: 20%;
+	padding: 5%;
+	float: left;
+}
+
+a {
+	text-decoration: none;
+	font-weight: none;
+	color: #ceecf2;
+	font-size: 0.75em;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+footer {
+	padding: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+	body { 
+		font-size: 16px;
+		 }
+
+	.work {
+		width: 30%;
+		padding: 10%;
+		float: left;
+	}
+
+@media only screen and (max-width: 480px) {
+	.work {
+		width: 80%;
+		padding: 10%;
+		float: none;
+	}
+	}
